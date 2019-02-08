@@ -8,8 +8,8 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name=viewport>
     <meta content=en name=language>
     <meta http-equiv=“Pragma” content=”no-cache”>
-<meta http-equiv=“Expires” content=”-1″>
-<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <meta http-equiv=“Expires” content=”-1″>
+    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
@@ -57,7 +57,7 @@
                 </ul>
             </div>
             
-        <div class=modal> <i class='ion-ios-close-outline close'></i>
+            <div class=modal> <i class='ion-ios-close-outline close'></i>
                 <div class=video-container>
                     <div data-type=vimeo data-video-id=76979871></div>
                 </div>
@@ -116,19 +116,23 @@
 
             <div class='page'>
                 <div class="home">
-                        <a class=logo href='index.html'> <img alt='design agency website design' src='images/Asset 1.svg'>
-                        </a>
-                        <div class=content>
-                                <a href="#" class="toggle-background">CHANGE</a>
-                                
-                            <h1 class=pro> Creative agency in Tampa, FL offering digital interface design, user experience and
-                                brand strategy solutions. </h1>
-                            <h2 class='dark medium'> We Integrate design and install bespoke home automation & cinema systems for the luxury residential market.’</span> </h2>
-                            <div class='cta cta-dark-bg'> <button class='dark showreel'> <span> View our Experience Center</span>
-                                </button> </div>
-        
-        
+                    <a href="javascript:void(0)" class="toggle-background">
+                        <i class="ion ion-ios-sunny"></i>
+                    </a>
+                    <a class=logo href='index.html'>
+                        <img alt='design agency website design' src='images/Asset 1.svg'>
+                    </a>
+                    <div class=content>
+                            
+                        <h1 class=pro> Creative agency in Tampa, FL offering digital interface design, user experience and
+                            brand strategy solutions. </h1>
+                        <h2 class='dark medium'> We Integrate design and install bespoke home automation & cinema systems for the luxury residential market.’</span> </h2>
+                        <div class='cta cta-dark-bg'> 
+                            <button class='dark showreel'>
+                                <span> View our Experience Center</span>
+                            </button>
                         </div>
+                    </div>
                 </div>
                
             </div>
@@ -136,14 +140,10 @@
     </div>
 
     <script>
-    // $(".toggle-background").click(function(){
-    //     $('.home').toggleClass("minus")  ; 
-    // });
-    
-    document.querySelector('.toggle-background').addEventListener('click', e => {
-        e.preventDefault();
-        document.querySelector('.home').classList.toggle('minus');
-    });
+        document.querySelector('.toggle-background').addEventListener('click', e => {
+            e.preventDefault();
+            document.querySelector('.home').classList.toggle('minus');
+        });
     </script>
 </body>
 

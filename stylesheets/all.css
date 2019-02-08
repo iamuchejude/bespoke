@@ -2007,10 +2007,10 @@ footer .copy-social .social a:hover {
     height: 100vh;
     position: fixed;
     width: 100%;
-    transition: 1s ease-in-out all;
-    -webkit-transition: 1s ease-in-out all;
-    -moz-transition: 1s ease-in-out all;
-    -o-transition: 1s ease-in-out all;
+    transition: 1s linear all;
+    -webkit-transition: 1s linear all;
+    -moz-transition: 1s linear all;
+    -o-transition: 1s linear all;
 }
 
 .home.minus {
@@ -2020,10 +2020,10 @@ footer .copy-social .social a:hover {
      height: 100vh;
      position: fixed;
      width: 100%;
-     transition: 1s ease-in-out all;
-     -webkit-transition: 1s ease-in-out all;
-     -moz-transition: 1s ease-in-out all;
-     -o-transition: 1s ease-in-out all;
+     transition: 1s linear all;
+     -webkit-transition: 1s linear all;
+     -moz-transition: 1s linear all;
+     -o-transition: 1s linear all;
  }
 
 .page .home .content {
@@ -3435,4 +3435,16 @@ section.project-contact .contact-form {
 
 .thanks-logo img {
     width: 100%
+}
+
+a.toggle-background {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+a.toggle-background i {
+    font-size: 3.0em;
 }
