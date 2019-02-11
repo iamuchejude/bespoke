@@ -429,12 +429,12 @@
                     if (e) return e.getAttribute && "string" == typeof e.getAttribute("xlink:href") ? e.getAttribute("xlink:href") : "string" == typeof e.href ? e.href : void 0
                 },
                 onLinkClick: function(e) {
-                    for (var t = e.target; t && !this.getHref(t);) t = t.parentNode;
-                    if (this.preventCheck(e, t)) {
-                        e.stopPropagation(), e.preventDefault(), i.trigger("linkClicked", t, e);
-                        var n = this.getHref(t);
-                        this.goTo(n)
-                    }
+                    // for (var t = e.target; t && !this.getHref(t);) t = t.parentNode;
+                    // if (this.preventCheck(e, t)) {
+                    //     e.stopPropagation(), e.preventDefault(), i.trigger("linkClicked", t, e);
+                    //     var n = this.getHref(t);
+                    //     this.goTo(n)
+                    // }
                 },
                 preventCheck: function(e, t) {
                     if (!window.history.pushState) return !1;
