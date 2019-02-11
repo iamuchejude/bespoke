@@ -8,7 +8,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 audio, canvas, video {
     display: inline-block
 }
-
+a{
+    text-decoration: none!important;
+    outline: none!important;
+}
 audio:not([controls]) {
     display: none;
     height: 0
@@ -245,7 +248,7 @@ body.video-active {
     position: absolute;
     width: 70px;
     top: 36px;
-    right: 40px;
+    right: 130px;
     z-index: 100
 }
 
