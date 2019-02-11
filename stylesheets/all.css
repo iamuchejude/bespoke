@@ -622,7 +622,7 @@ p.dark {
 
 .title-text {
     position: relative;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .title-text.center:after {
